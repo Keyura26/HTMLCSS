@@ -1,0 +1,64 @@
+Incase of div and section the content moves to the new line where as for the span content remains in same line
+
+ CSS Layout
+ 4 types of CSS layouts are
+ Block
+ Inline
+ Inline - Block
+ None
+
+ *Block has different properties
+ Dimension - changing height and width of the element accordingly it will adjust
+ Auto Break - There is a line break at starting and ending by default for anything which is type block
+
+*Inline
+Inline doesn't have dimension and auto break. It gets adjusted automatically to the size of the content.
+
+*Inline - Block
+Inline has dimension but no auto break
+
+*None 
+It hides the particular content and it frees up the space occupied by that content
+
+*Visibility
+It hides the particular content and it doesn't free up the space occupied by that content
+
+All the div tags by default takes display-block
+
+All the span tags by default takes display-inline
+
+Box -sizing can be of two types 
+
+border-box and content-box
+
+*border-box restricts the content according to the height and width dimensions 
+the total width including box size, padding,margin doesnot exceed width and height
+
+*Positioning in CSS
+static
+relative
+absolute
+fixed
+sticky
+
+Difference between relative and absolute - relative maintains original place whereas absolute
+frees of original place
+
+*If we want to scroll the page assign height and width to the div container
+
+*absolute always works with parent position relative
+If none of them have then it will consider the window as starting point for top and left dimensions
+
+*For position Fixed - starting point is always the window nomattr whatever is its parent
+
+* Sticky still a certain point it will scroll and furthur it doesn't move forward
+Position scroll on change - it changes for up to some level and later on doesn't change
+
+*overflow:
+visible: even if content exceeds the size it is visible
+
+hidden: if content exceeds the size it is not visible
+
+scroll: scroll bar is visible even if content exceeds the size or no exceeds the size
+
+auto: scroll bar is visible only if content exceeds the size

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- DOCTYPE represents that we are using latest version of HTML -->
+<!-- It indicates browser to apply all latest standards of HTML in the page that is getting rendered -->
+<!-- HTML5 is the latest one -->
+<html>
+    <head>
+      <h1>Contact Form</h1>
+      <style>
+         input {
+                height: 40px;
+            }
+            input[type="number"] {
+                width: 200px;
+            }
+        form input[type="number"] {
+                width: 200px;
+            }
+        form input[type="number"].num {
+                width: 200px;
+            }
+            /* if we want to apply for particular attribute inside an input tag we can use this syntax */
+      </style>
+    </head>
+    <body>
+        <form action="/submit" method="POST">
+            <div>
+            <label for="firstname" >Name</label>
+             <!-- for and id are used when we hover on the label corresponding input field gets selected -->
+            <input type="text" placeholder="Enter your name..." name="name" required id="firstname"/>
+        </div>
+        <div>
+            <label >Phnno</label>
+            <input class="num" type="number" placeholder="Enter your number..." name="phone" min="9" max="10"/>
+        </div>
+        <div>
+            <label >Email</label>
+            <input type="email" placeholder="Enter your email..." name="email"/>
+        </div>
+        <div>
+            <label >Message</label>
+            <textarea placeholder="Enter your message..." name="query"></textarea>
+        </div>
+        <div>
+            <label>Course Preferences</label>
+            <label for="ffe1">FFE1</label>
+            <input type="checkbox" value="FFE1" name="course"  id="ffe1"></textarea>
+            <label for="ffe2">FFE2</label>
+            <input type="checkbox" value="FFE2" name="course" id="ffe2"></textarea>
+            <label for="ffe3">FFE3</label>
+            <input type="checkbox" value="FFE3" name="course" id="ffe3"></textarea>
+        </div>
+        <div>
+            <label>Gender</label>
+            <label>Male</label>
+            <input type="radio" value="male" name="gender"/>
+            <label>Female</label>
+            <input type="radio" value="female"  name="gender"/>
+            <label>Others</label>
+            <input type="radio" value="others"  name="gender"/>
+        </div>
+        <!-- We should take same name for checkbox and radio button as they are for grouping things -->
+        <div>
+            <label>Select City</label>
+            <select name="city">
+                <option value="blr">Bangalore</option>
+                <option value="ndls">Delhi</option>
+                <option value="pn">Pune</option>
+                <option value="lknw">Lucknow</option>
+                <option value="mum">Mumbai</option>
+            </select>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+        </form>
+    </body>
+</html>
+
+<!-- file:///C:/submit?name=Keyura&phone=9381543273&email=keyura%40gmail.com&query=HTML+forms -->
+<!-- This is the url we would get if we are using attribute name inside input tags -->

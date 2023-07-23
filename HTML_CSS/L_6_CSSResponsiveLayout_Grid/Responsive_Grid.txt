@@ -1,0 +1,33 @@
+* Outer layer of the Grid where we apply properties on is called as Container
+*individual items in grid are known as Grid Items
+
+* With auto property in grid template column it adjusts the size according to the 
+size of the content in it , fr adjusts the content in multiple line in single rows
+
+*If we want to get equal height and contain entire stuff of the screen with grid property
+
+*By default browser(browser agent) gives margin for the body of content and we can set it to zero
+
+* vh - view port height - it is visible as per given dimensions -100vh means 100% 
+whereas vw is viewport width
+
+*In flex we can control only 1 dimensional whereas in grid it is 2 dimensional
+
+*Justify-items is used to align items in the center when given center as property
+
+*justify-items and align-items are used to  manage the items inside the grid
+
+*At container level  we use align item property and at item levelwe use align self property
+
+*grid-auto-row - talks about in which direction we need to fill first
+and what is the default configuration we need to give
+
+if we need to place things one after another in vertical direction in row fashion
+
+* If there is no particular configuration for any row we take
+grid-auto-row as configuration for that particular row
+
+*auto-fill property specifies that particular property takes care of
+how many columns we require instead of specifying a static number
+based on column size
+

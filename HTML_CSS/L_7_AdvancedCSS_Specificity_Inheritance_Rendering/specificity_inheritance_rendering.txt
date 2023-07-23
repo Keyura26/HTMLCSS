@@ -1,0 +1,60 @@
+h2::hover - ::before and ::after operator in this context is known as psuedo element , h1:hover represents
+psuedo class
+* Which css property is going to be applied is decided based on the specificity score.specificity score
+can be calculated online
+1000's place - not important
+100's place - no. of id 's
+10's place - no of class and pseudo class 
+units place - no of elements
+h1:hover - h1 is element and hover is pseudo class
+h1::after , h1::before - h1 is element , before and after are pseudo elements
+
+****************************************************
+When we apply a property to a parent element it gets applied on the child tages inside it as well this concept is known as inheritance
+The child elements inherits properties from parent elements if there is no specific property is given to particular element.
+
+The child inherits the property from the closer parent rather than from farther parent.
+
+Therre are some properties which can be inherited whereas some properties which cannot be inherited while
+coming to the point of inheritance.
+
+We can inherit the properties which are not by default inherited using height:inherit property
+
+* we can specify any non inherited properties to a element 
+parent : give height:100px
+for child which we need the property to be inherited give height:inherit
+
+*Whenever we write display:initial it will latch back to the property which are given by CSS rule
+
+* For div display block was a browser property and after setting it to display:initial it takes
+property of CSS rule and converts the display property to inline
+
+*When we use inherit on a property which gets inherited - it resets the property which we have defined in the same level
+and gets the property inherited from the just parent level
+
+* When we try to inherit a property which doesn't gets inherited - it takes the property of css rule 
+i.e for display its inline as CSS property
+
+*When we use revert on a property which gets inherited - it resets the property which we have defined in 
+the same level and gets the property inherited from the just parent level
+
+* When we try to revert a property which doesn't gets inherited - it takes the property of browser level 
+i.e for display its block as CSS property
+
+*z-index helps in management of layers which we have seen in positional properties
+ ex: Static, Relative,Absolute,Fixed,Sticky
+
+ *anything which is non static we can apply z-index on it which is layering concept
+
+ *By default all are going to be in z-index:0, but when we specify z-index as 1 for a particular element
+ as it has higher z-index number it will be displayed
+
+ *The more higher the index the more upfront its going to visible
+
+ *If we want to place anything at the end use z-iindex as -1
+
+ *If we give 0 as parameter for a in rgba(255,255,0,0) its transparent ans we can see the color of box behind it.
+
+ *We can use margin-top = -20px inorder to remove the margin that already exists
+
+ *Rendering is nothing but based on specificity what will be rendered and how it will be rendered

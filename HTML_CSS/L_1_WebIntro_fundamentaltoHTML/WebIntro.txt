@@ -1,0 +1,87 @@
+Client is used to display the data on the screen whereas server is used to fetch data from backend based on the user requirements.
+Database is used to store the information 
+
+*Is laptop a client or a server?
+It acts as both.Server is just a machine with higher configuration which is 24/7 up there is no downtime so that anyone can reach and do the processing and get the outcome.
+Every machine either mobile or laptop which is connected to internet has a unique name known as IP
+
+** Inorder to reach out to a server a machine or browser basically need is IP address. 
+IP address is the address of the machine which we have to reach out , we have a domain name
+
+For DNS what we give is the domain name and what we get is the IP address
+
+* Browser understands only HTML . Whenever we pass HTML browser knows what all we need to do with it
+
+*DNS is a domain name server.It has key pair values where domain name and IP address associated so that it is a hash map kind of thing.Inspect -> Network->request url is request made -> remote address is IP address that got resolved from DNS 
+and we get html code in the response and also its dependencies such as CSS,JS code and images
+
+*Browser instead of going into DNS for IP address it checks 
+1. browser - If we have browser cache where we have domain name and IP mapping
+2. Operating System - whether its windus or linux or macbook it can contain a mapping where we have domain name and IP address. When we open google.com instead of opening actual google.com it opens host file
+3.Routers - When we have routers,wifi request actually goes through router, router itself can tell if there is a cache it can directly fetch as domain name and IP address no need to go to DNS
+4. ISP - ISP's can be regional or global . Sometimes this can also contain the cache.
+5.if we don't find domain name and IP address in above 4 options we move into DNS to fetch it
+
+** When the request goes the first request that happens is TCP request
+
+**TCP connection is something that asks server that it makes upcoming request and asks server if its available or not,server tells yes I am available lets start sending request to me i will give you response.TCP handshake is what happens first.
+Once the TCP connection actually happens then the request and response actually starts. The response comes in the form of packets
+
+** Packets or chunks are basically transferred in form of TCP or UDP.these are transmission control protocols which tells in which format or way the data is going to be transferred. 
+TCP says even if a single packet has missed it call back server and says packet is missing and asks to send it so that we can assemble the data or bundle the data I cannot do the same if anything goes missing.
+These packets can contain html,css ,java script.
+
+//***********************//
+HTML - Hyper Text Mark up Language
+
+Element or tags - <head> , <body> ,<img> ,<p> , <html>, <title> , <h1> to <h6> , <br> ,<hr>
+
+Attribute - <head lang=""> <img src=""> <body style="">
+
+<head> ....... </head>
+<body> .......  </body>
+<p> ......... </p>
+
+<img/>
+<br/>
+<hr/>
+
+//*****************************//
+
+In VS code the IP address is not public IP, this is local IP.
+If we want to access the content of local IP we have to map public IP with local IP 
+then we will be able to access that
+
+http://127.0.0.1:5500/L_1_WebIntro_fundamentaltoHTML/index.html this url will become server to us if we map 
+public IP with local IP
+
+Local IP was created by Live server whereas global IP is PC's address
+
+
+Body has a well known structure and well known properties. Similarly div and p tag have well known properties
+
+DOM - it is a model which has well structured definition of each and every element , object is a representation
+the entire thing is representation of document
+
+DOM tree is created whenever we pass HTML browser converts it into tree
+
+*Browser parses HTML code
+Browser acts as a tokenizer -header,div,p,body,footer,main,section all these are tokens it tokenizes all these so that it can internally map with html tags and whatever we have used in it
+Browser creates a DOM tree
+HTML is used to define the structure of web page where as CSS is used to beautify the web page.
+
+* CSS also performs three steps
+-> parses
+-> tokenizer
+-> CSSOM
+
+* Combination of DOM tree and CSSOM tree is known as render tree
+
+*Similarly in web page when we get HTML and CSS after render tree -> a floor plan or layout is created
+
+The language in which the connection actually happens between the data is HTTP.Data can be travelled in wireless fashion Data Centre to satellite to tower to people.Wireless things are not much reliable and time taken by the wireless is much more. The alternative is optical fibre - All these cables are under water wire which are spread over different countries and pipelines will go under the water under the seas connecting different countries inorder to transfer data at a speed of light via optical fibre
+
+Assignment Questions -
+Create a simple Nav bar and Header section with just using plain HTML make the all the options redirectable , upload a profile Image of a person for whom the portfolio is being created and add necessary details about the Person
+Create an About me Section with using (section tag , Necessary Heading , Images , divs and social Profile links)
+Create a Projects section where projects will be showcased with necessary headings, divs and Images with project logos and project description.

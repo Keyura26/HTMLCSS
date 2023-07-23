@@ -1,0 +1,61 @@
+* Div has dimensions and it pushes the content to the next line whereas span doesn't have any dimension 
+and doesn't push content to the new line
+
+* Span is to put the content div is to provide the structure
+
+* Div is block type it has dimensions and any other property will come down of it i.e next line
+
+* When we say display flex all the content of a particular container is bydefault going to come
+in the main axis i.e Default main axis is X-axis
+
+*flex-direction:row is the default property
+
+*100vh vh is the vertical height of the view i.e viewport height
+
+*flex-direction:row -> Main axis is X-axis  Cross axis is Y-axis
+
+*Justify content is used to align content according to main axis
+*Align items is used to align content according to cross axis
+
+*flex-direction:column -> Main axis is Y-axis  Cross axis is X-axis
+
+* Give justifycontent as center and align items as center if we want to place items in the center of the page
+
+*Gap is to give fixed space between the content
+
+*flex-wrap is the property which wraps the content according to size of the element.It doesn't compress the size
+of the element
+
+flex-wrap : wrap wraps the content
+flex-wrap : no wrap doesn't wrap content
+wrap-reverse property fits the elements in the reverse direction instead of top to bottom it is bottom to top
+
+For flex direction : row-reverse and column-reverse  property is also present.
+
+*Media Query syntax in CSS - For different resolutions, different devices iift adds and modifies conditions for different 
+conditions , different features and for different resolutions.
+
+*Flex Grow helps to accomodate the particular element to the rest of the space available and make it responsive in nature
+to the size by accomodating the content according to the page size
+
+*Flex grow helps in making things responsive too
+
+* *When we move beyond certain point to hide some features  or to align them vertically these kind of conditions we need to add
+These are fulfilled by using media query.Media query is ntg but writing if condition in the CSS.
+
+* @media MEDIA_TYPE(MEDIA_FEATURE OPERATOR MEDIA_FEATURE)
+
+@media screen (min-width:320px and max-width:768px){
+    .left-panel{
+        //
+    }
+    .right-panel{
+        //
+    }
+}
+
+*We can play with different conditions within media query
+
+*For media print it will apply the conditions that we have specified when we try to print the page
+
+*For media query it works like if this condition meets then overwrite existing condition with this condition

@@ -1,0 +1,24 @@
+for class representation its   .classname{}
+for ID representation its       #idname{}
+for element representation its  tagname{}  ex:h1,p
+
+these are few types of selectors in css
+
+We use section tag to give more logical sense for content inside it
+
+Selector -id are used to target one element at a time
+ Selector - class is used to target multiple elements at a time
+
+ Internal style tag need not to be added in only header section we can place it anywhere in the html
+
+ rgb - red green blue
+ rgb(red,green,blue) - rgb(0,255,0) -applies green color
+ rgb(255,0,0) - applies red color
+ rgb(0,0,255) - applies blue color
+ 0 indicates no color 255 indicates full color
+
+ #000000 - represents black
+ #ffffff - represents white
+ #ff0000 - red
+ #00ff00 - green
+ #0000ff - blue

@@ -1,0 +1,33 @@
+* List
+* Table
+* Form
+
+- List
+ Ordered List / Unordered List
+ Nested Lists
+ List + Description
+
+ * It is recommended that no. of headings we have we should have same no. of rows
+
+ * Forms
+ Google form 
+ Scalar login
+ Registration page
+ Login/signin/signup form
+ Feedback form
+ Contact form
+
+ Imp parts of the form are
+ Form fields
+ Labels
+ submit button
+ Input fields
+ Check boxes
+ Combo boxes
+ Text area
+ select
+
+ * Input is a self closing tag
+
+ *input div type are some pre defined tokens in html. For HTML theseare different tokens it tries to convert into DOM tree before converting
+ it tries to relate it with its respective meaning and then a DOM tree is created
